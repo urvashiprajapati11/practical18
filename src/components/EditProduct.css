@@ -1,0 +1,95 @@
+
+.edit-panel {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.07);
+}
+
+.edit-panel h2 {
+  margin: 0 0 8px;
+  color: #1e3a8a;
+}
+
+.form-subtitle {
+  color: #64748b;
+  font-size: 14px;
+  margin-bottom: 22px;
+}
+
+.edit-panel form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-panel label {
+  font-weight: 600;
+  font-size: 14px;
+  margin: 12px 0 7px;
+}
+
+.edit-panel input,
+.edit-panel textarea {
+  width: 100%;
+  padding: 11px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font: inherit;
+  color: #1e293b;
+}
+
+.edit-panel input:focus,
+.edit-panel textarea:focus {
+  outline: 2px solid #93c5fd;
+  border-color: #2563eb;
+}
+
+.edit-panel textarea {
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.update-button,
+.cancel-button {
+  padding: 11px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.update-button {
+  flex: 1;
+  background: #16a34a;
+  color: white;
+}
+
+.update-button:hover {
+  background: #15803d;
+}
+
+.cancel-button {
+  background: #e2e8f0;
+  color: #334155;
+}
+
+.cancel-button:hover {
+  background: #cbd5e1;
+}
+
+.update-button:disabled,
+.cancel-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.empty-panel {
+  color: #64748b;
+  min-height: 200px;
+}
